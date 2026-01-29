@@ -67,7 +67,7 @@ function App() {
         <div className="bg-slate-900/40 p-10 rounded-2xl border border-white/5">
           <h4 className="text-2xl font-bold mb-3">Task Manager Pro</h4>
           <p className="text-slate-400 mb-6 leading-relaxed max-w-2xl">
-            A real-world application built to master **Global State Management**. 
+            A real-world application built to master <strong>Global State Management</strong>. 
             This project showcases my ability to handle complex data flows, 
             ensuring that application state remains as balanced as an accounting ledger.
           </p>
@@ -98,7 +98,7 @@ function App() {
         <p className="mt-20 text-[10px] text-slate-700 tracking-[0.2em] uppercase">Built by Belayneh Takele • 2026</p>
       </footer>
 
-    </div> // This was the missing closing tag!
+    </div>
   );
 }
 

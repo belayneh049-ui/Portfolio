@@ -29,7 +29,7 @@ function App() {
           <h2 className="text-indigo-400 font-mono text-sm mb-4 tracking-widest uppercase italic">Junior Frontend Developer</h2>
           <h1 className="text-5xl md:text-6xl font-black mb-6 leading-tight">BUILDING WITH <br/> PRECISION.</h1>
           <p className="text-lg text-slate-400 mb-8 max-w-md">
-            Currently an **Accounting Student** graduating in 2027. I combine analytical financial thinking with 
+            Currently an <span className="text-white font-semibold">Accounting Student</span> graduating in 2027. I combine analytical financial thinking with 
             <span className="text-white"> React and TypeScript</span> to build clean, functional web applications.
           </p>
           <button 
@@ -71,29 +71,35 @@ function App() {
             This project showcases my ability to handle complex data flows, 
             ensuring that application state remains as balanced as an accounting ledger.
           </p>
-          <a href="https://github.com/belayneh049-ui/task-manager-redux" target="_blank" className="text-indigo-400 font-bold hover:text-indigo-300 transition-colors">
+          <a href="https://github.com/belayneh049-ui/task-manager-redux" target="_blank" rel="noopener noreferrer" className="text-indigo-400 font-bold hover:text-indigo-300 transition-colors">
             View Source on GitHub →
           </a>
         </div>
       </section>
 
       {/* Final Footer Section */}
-<footer id="contact" className="max-w-6xl mx-auto px-6 py-20 border-t border-white/5 text-center">
-  <h3 className="text-2xl font-bold mb-8">Get In Touch</h3>
-  <div className="space-y-4">
-    <p className="text-slate-400">
-      Email: <a href="mailto:belayneh049@gmail.com" className="text-white hover:text-indigo-400 transition-colors">belayneh049@gmail.com</a>
-    </p>
-    <p className="text-slate-400">
-      Phone: <a href="tel:+251960102249" className="text-white hover:text-indigo-400 underline decoration-indigo-500/50">+251 960 102 249</a>
-    </p>
-    
-    <div className="flex justify-center flex-wrap gap-8 mt-8">
-      <a href="https://t.me/belay0321" target="_blank" className="text-sm font-bold text-slate-500 hover:text-white uppercase tracking-widest transition-colors">Telegram</a>
-      <a href="https://facebook.com/belay0321" target="_blank" className="text-sm font-bold text-slate-500 hover:text-white uppercase tracking-widest transition-colors">Facebook</a>
-      <a href="https://instagram.com/belay0321" target="_blank" className="text-sm font-bold text-slate-500 hover:text-white uppercase tracking-widest transition-colors">Instagram</a>
-      <a href="https://github.com/belayneh049-ui" target="_blank" className="text-sm font-bold text-slate-500 hover:text-white uppercase tracking-widest transition-colors">GitHub</a>
-    </div>
-  </div>
-  <p className="mt-20 text-[10px] text-slate-700 tracking-[0.2em] uppercase">Built by Belayneh Takele • 2026</p>
-</footer>
+      <footer id="contact" className="max-w-6xl mx-auto px-6 py-20 border-t border-white/5 text-center">
+        <h3 className="text-2xl font-bold mb-8">Get In Touch</h3>
+        <div className="space-y-4">
+          <p className="text-slate-400">
+            Email: <a href="mailto:belayneh049@gmail.com" className="text-white hover:text-indigo-400 transition-colors">belayneh049@gmail.com</a>
+          </p>
+          <p className="text-slate-400">
+            Phone: <a href="tel:+251960102249" className="text-white hover:text-indigo-400 underline decoration-indigo-500/50">+251 960 102 249</a>
+          </p>
+          
+          <div className="flex justify-center flex-wrap gap-8 mt-8">
+            <a href="https://t.me/belay0321" target="_blank" rel="noopener noreferrer" className="text-sm font-bold text-slate-500 hover:text-white uppercase tracking-widest transition-colors">Telegram</a>
+            <a href="https://facebook.com/belay0321" target="_blank" rel="noopener noreferrer" className="text-sm font-bold text-slate-500 hover:text-white uppercase tracking-widest transition-colors">Facebook</a>
+            <a href="https://instagram.com/belay0321" target="_blank" rel="noopener noreferrer" className="text-sm font-bold text-slate-500 hover:text-white uppercase tracking-widest transition-colors">Instagram</a>
+            <a href="https://github.com/belayneh049-ui" target="_blank" rel="noopener noreferrer" className="text-sm font-bold text-slate-500 hover:text-white uppercase tracking-widest transition-colors">GitHub</a>
+          </div>
+        </div>
+        <p className="mt-20 text-[10px] text-slate-700 tracking-[0.2em] uppercase">Built by Belayneh Takele • 2026</p>
+      </footer>
+
+    </div> // This was the missing closing tag!
+  );
+}
+
+export default App;

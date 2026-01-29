@@ -77,21 +77,23 @@ function App() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer id="contact" className="max-w-6xl mx-auto px-6 py-20 border-t border-white/5 text-center">
-        <h3 className="text-2xl font-bold mb-8">Get In Touch</h3>
-        <div className="space-y-4">
-          <p className="text-slate-400">Phone: <a href="tel:+251960102249" className="text-white hover:text-indigo-400 underline decoration-indigo-500/50">+251 960 102 249</a></p>
-          <div className="flex justify-center gap-8 mt-6">
-            <a href="https://t.me/belay0321" target="_blank" className="text-sm font-bold text-slate-500 hover:text-white uppercase tracking-widest">Telegram</a>
-            <a href="https://facebook.com/belay.takele" target="_blank" className="text-sm font-bold text-slate-500 hover:text-white uppercase tracking-widest">Facebook</a>
-          </div>
-        </div>
-        <p className="mt-20 text-[10px] text-slate-700 tracking-[0.2em] uppercase">Built by Belayneh Takele • 2026</p>
-      </footer>
-
+      {/* Final Footer Section */}
+<footer id="contact" className="max-w-6xl mx-auto px-6 py-20 border-t border-white/5 text-center">
+  <h3 className="text-2xl font-bold mb-8">Get In Touch</h3>
+  <div className="space-y-4">
+    <p className="text-slate-400">
+      Email: <a href="mailto:belayneh049@gmail.com" className="text-white hover:text-indigo-400 transition-colors">belayneh049@gmail.com</a>
+    </p>
+    <p className="text-slate-400">
+      Phone: <a href="tel:+251960102249" className="text-white hover:text-indigo-400 underline decoration-indigo-500/50">+251 960 102 249</a>
+    </p>
+    
+    <div className="flex justify-center flex-wrap gap-8 mt-8">
+      <a href="https://t.me/belay0321" target="_blank" className="text-sm font-bold text-slate-500 hover:text-white uppercase tracking-widest transition-colors">Telegram</a>
+      <a href="https://facebook.com/belay0321" target="_blank" className="text-sm font-bold text-slate-500 hover:text-white uppercase tracking-widest transition-colors">Facebook</a>
+      <a href="https://instagram.com/belay0321" target="_blank" className="text-sm font-bold text-slate-500 hover:text-white uppercase tracking-widest transition-colors">Instagram</a>
+      <a href="https://github.com/belayneh049-ui" target="_blank" className="text-sm font-bold text-slate-500 hover:text-white uppercase tracking-widest transition-colors">GitHub</a>
     </div>
-  );
-}
-
-export default App;
+  </div>
+  <p className="mt-20 text-[10px] text-slate-700 tracking-[0.2em] uppercase">Built by Belayneh Takele • 2026</p>
+</footer>
